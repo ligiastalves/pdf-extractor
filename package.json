@@ -1,0 +1,25 @@
+{
+  "name": "pdf-extractor",
+  "version": "1.0.0",
+  "description": "Protótipo fullstack para extração de dados de notas fiscais em PDF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ligiastalves/pdf-extractor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ligiastalves/pdf-extractor/issues"
+  },
+  "homepage": "https://github.com/ligiastalves/pdf-extractor#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
