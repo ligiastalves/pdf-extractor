@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extrator de Nota Fiscal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Extrator de Dados de Nota Fiscal</h1>
+        <p>Selecione um arquivo PDF de nota fiscal para extrair as informações.</p>
+        <input type="file" id="pdfInput" accept=".pdf">
+        <button onclick="sendPDF()">Extrair Dados</button>
+        <p id="loading">Processando...</p>
+        <div id="result-container">
+            <h2>Dados Extraídos:</h2>
+            <pre id="result"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

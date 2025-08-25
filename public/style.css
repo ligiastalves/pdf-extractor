@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+.container {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+#pdfInput {
+    margin: 1em 0;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#result-container {
+    margin-top: 2em;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    padding-top: 1em;
+}
+#loading {
+    display: none;
+    color: #007bff;
+    font-style: italic;
+}
+.data-line {
+    display: flex;
+    margin-bottom: 0.5em;
+}
+.data-label {
+    font-weight: bold;
+    min-width: 150px;
+}
+.data-value {
+    margin-left: 10px;
+}
