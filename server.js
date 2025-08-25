@@ -26,9 +26,9 @@ app.post('/upload', async (req, res) => {
         
         const regexCnpjEmitente = /DANFE[\s\S]*?CNPJ[\s\S]*?([\d]{2}\.[\d]{3}\.[\d]{3}\/[\d]{4}\-[\d]{2})/i;
         
-        const regexValor = /(?:TOTAL DA NOTA|VALOR TOTAL DOS PRODUTOS)[\s\S]*?([\d.,]+)/i;
+        const regexValor = /(?:VALOR TOTAL DA NOTA|VALOR TOTAL DOS PRODUTOS)[\s\S]*?([\d.,]+)/i;
         
-        const regexData = /DATA DA EMISSÃO[\s\S]*?(\d{2}\/\d{2}\/\d{4})/;
+        const regexData = /(?:DATA DA EMISSÃO|DATA EMISSÃO)[\s\S]*?(\d{2}\/\d{2}\/\d{4})/;
 
         const regexChave = /CHAVE DE ACESSO[\s\S]*?(\d[\s\d]{54})/i;
 
